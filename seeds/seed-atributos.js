@@ -1,4 +1,4 @@
-var Atributo = require('../models/Atributo');
+var Atributo = require('../models/atributo');
 
 module.exports = function () 
 {

@@ -10,11 +10,11 @@ var url = require('./config/server');
 var db = require('./config/db');
 
 // load de rotas
-var home = require('./Controllers/home');
-var teste = require('./Controllers/teste');
+var home = require('./controllers/home');
+var teste = require('./controllers/teste');
 
 // load de seeds
-var seed_atributos = require('./seeds/seedAtributos');
+var seed_atributos = require('./seeds/seed-atributos');
 
 // usa configuracoes
 app.use(body_parser.json());
